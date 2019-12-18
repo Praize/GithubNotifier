@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Github Notification</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="grey">
+  <nav class="black lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Notifier</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col lg12 m12">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">About The Application</h5>
+            <p class="white-smoke center">The application simply works with what Github has to offer, well in this case Respository data. The application searches and displays Repositories depending on what the user has entered on search bar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="brown ">
+        <h1 class="header center white-text">Github Search Repository</h1>
+        <div class="row center">
+        <h5 class="header col s12 light">Navigate Below</h5>
+        </div>
+        <div class="row center">
+          <form class="col s12 black">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">search</i>
+                <input id="icon_prefix" type="text" class="validate white-text searchGit">
+                <label for="icon_prefix">Search</label>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+    <br><br>
+  </div>
+  <!--Display the Repositories !!-->
+  <div id="displayRepo">
+
+  </div>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12">
+          <h5 class="white-text" id="contact">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">senemenyuswa07@gmail.com</a></li>
+            <li><a class="white-text" href="#!">060 896 2488</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="black footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="https://github.com/praize">Seneme</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="Github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+
+  </body>
+</html>
